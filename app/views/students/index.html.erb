@@ -1,0 +1,6 @@
+<%# For each student, call the #to_s method listed in the students model to return each name and prtin them %>
+<ul>
+<% @students.each do |s| %>
+    <li><%= s.to_s %></li>
+<% end %>
+</ul>
