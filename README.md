@@ -24,6 +24,8 @@ be found in `spec/features`. Both tests should be passing to complete the lab.
 - Create a route that is mapped to a students' controller index action, the
   resulting route should be `/students`
 
+  get '/students', to: 'student#/index'
+
 - Create a controller for students and have it inherit from
   ApplicationController
 
